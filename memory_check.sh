@@ -9,7 +9,7 @@ while getopts :c:w:e opt; do
 			;;
 		e) EMAIL=$OPTARG
 			;;
-		?) echo "$OPTARG is an Invalid Parameter" exit 2
+		?) echo "$OPTARG is an Invalid Parameter" exit
 			;;
 	esac
 done
