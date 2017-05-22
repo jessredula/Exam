@@ -13,6 +13,7 @@ while getopts :c:w:e opt; do
 			;;
 	esac
 done
+
 	if [[ $CRITICAL -lt $WARNING ]] then
 	echo "Error: Warning Parameter is greater than Critical Parameter" 
 	exit 2
